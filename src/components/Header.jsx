@@ -7,7 +7,7 @@ import { Dialog } from '@headlessui/react'
 //   // eslint-disable-next-line no-unused-vars
 //   XMarkIcon,
 // } from '@heroicons/react/24/outline'
-// import { CheckIcon } from '@heroicons/react/20/solid'
+import { BsBug } from "react-icons/bs";
 
 const navigation = [
   { name: 'Product', href: '#' },
