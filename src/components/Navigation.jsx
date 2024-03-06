@@ -9,7 +9,7 @@ import { Dialog } from '@headlessui/react'
 import { BsFileExcel,BsArrowLeftCircleFill  } from "react-icons/bs";
 
 const navigation = [
-    { name: 'Home', href: '#home' },
+    { name: 'Home', href: '/home' },
     { name: 'About', href: '#about' },
     { name: 'Contact Us', href: '#contact-us' },
   ]
@@ -52,7 +52,7 @@ function Navigation() {
                   ))}
               </div>
               <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                  <a href="./login/loginas" className="text-sm font-semibold leading-6 text-white">
+                  <a href="/login-as" className="text-sm font-semibold leading-6 text-white">
                   Login <span aria-hidden="true">&rarr;</span>
                   </a>
                   </div>

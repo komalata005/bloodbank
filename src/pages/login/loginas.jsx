@@ -1,19 +1,16 @@
 import React from 'react';
-import './App.css';
-
-// Import your components
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from '../../components/Footer';
+import Navigation from '../../components/Navigation';
 
 function Loginas() {
   return (
-    <div className="">
-      <Header />
-      <div className="container">
-
-      </div>
+    <>
+      <Navigation />
+      <section className="container">
+<h1>login as </h1>
+      </section>
       <Footer />
-    </div>
+    </>
   );
 }
 

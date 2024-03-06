@@ -5,11 +5,13 @@ import Navigation from '../components/Navigation';
 
 const Home = () => {
   return (
-    <section id='#home'>
-      <Navigation />
-    <Features id="#about" />
-    <Footer />
-    </section>
+    <>
+      <section id="home">
+        <Navigation />
+        <Features id="about" />
+        <Footer />
+      </section>
+    </>
   );
 };
 
