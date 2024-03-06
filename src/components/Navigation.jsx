@@ -22,7 +22,7 @@ function Navigation() {
   <img src='../header.svg' alt='' className='' height={391} width={1440} />
 
  <div className='z-50 '>
- <div className='bg-[#982C29] py-2'>
+ <div className='bg-[#982C29]'>
  <nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
               <div className="flex lg:flex-1">
                   <a href="#home" className="-m-1.5 p-1.5">
