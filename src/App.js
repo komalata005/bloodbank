@@ -3,15 +3,14 @@ import './styles/main.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Features from './components/Features';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <>
-    {/* <h1 className="text-3xl font-bold text-red-700 underline">
-      Hello world!
-    </h1> */}
-    <img src='../header.svg' alt='' className='' height={391} width={1440} />
-    <Header />
+
+    {/* <Header /> */}
+    <Navigation />
     <Features />
     <Footer />
     </>

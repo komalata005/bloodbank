@@ -1,4 +1,4 @@
-import { BsBug } from "react-icons/bs";
+import { BsGoal, BsEye, BsEmojiSmile } from "react-icons/bs";
 
 const features = [
   {
@@ -6,21 +6,21 @@ const features = [
     description:
       'Our mission is to create a streamlined and accessible platform that connects individuals in need of blood with timely and accurate information about blood availability. We aim to facilitate a quick and efficient process through which users can find the required blood types, quantities, and locations with just a few clicks.',
     href: '#',
-    icon: BsBug,
+    icon: BsEmojiSmile,
   },
   {
     name: 'Vision',
     description:
       'Our vision is to establish a reliable and centralized platform that becomes the go-to resource for anyone requiring blood during emergencies. We envision a future where individuals can rely on our service to quickly connect with available blood donors, fostering a sense of community and support in times of crisis. Through our platform, we strive to make a significant impact on emergency healthcare by providing critical information efficiently and effectively.',
     href: '#',
-    icon: BsBug,
+    icon: BsEye,
   },
   {
     name: 'Goal',
     description:
       'Our goal is to eliminate the challenges and uncertainties faced by individuals seeking blood in emergency situations. We aspire to provide a comprehensive and user-friendly solution that ensures people in urgent need can easily access vital information about available blood resources. By doing so, we aim to contribute to saving lives and reducing the burden of searching across various social media platforms.',
     href: '#',
-    icon: BsBug,
+    icon: BsEmojiSmile,
   },
 ]
 
