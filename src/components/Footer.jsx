@@ -14,12 +14,11 @@ const navigation = {
     { name: 'Guides', href: '#' },
     { name: 'API Status', href: '#' },
   ],
-  company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+  Links: [
+    { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
+    { name: 'Contact Us', href: '#contact-us' },
+
   ],
   legal: [
     { name: 'Claim', href: '#' },
@@ -102,7 +101,7 @@ export default function Footer() {
       <div className="xl:grid xl:grid-cols-3 xl:gap-8">
         <div className="grid grid-cols-2 gap-8 xl:col-span-2">
           <div className="md:grid md:grid-cols-2 md:gap-8">
-            <div>
+            {/* <div>
               <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
               <ul role="list" className="mt-6 space-y-4">
                 {navigation.solutions.map((item) => (
@@ -113,8 +112,8 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="mt-10 md:mt-0">
+            </div> */}
+            {/* <div className="mt-10 md:mt-0">
               <h3 className="text-sm font-semibold leading-6 text-gray-900">Support</h3>
               <ul role="list" className="mt-6 space-y-4">
                 {navigation.support.map((item) => (
@@ -125,13 +124,13 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.company.map((item) => (
+              <h3 className="text-sm font-semibold leading-6 text-gray-900">Links</h3>
+              <ul className="mt-6 space-y-4">
+                {navigation.Links.map((item) => (
                   <li key={item.name}>
                     <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                       {item.name}
@@ -140,7 +139,7 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
-            <div className="mt-10 md:mt-0">
+            {/* <div className="mt-10 md:mt-0">
               <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
               <ul role="list" className="mt-6 space-y-4">
                 {navigation.legal.map((item) => (
@@ -151,7 +150,7 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div className="mt-10 xl:mt-0">

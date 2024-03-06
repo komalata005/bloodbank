@@ -1,4 +1,4 @@
-import { BsGoal, BsEye, BsEmojiSmile } from "react-icons/bs";
+import { BsEye, BsEmojiSmile } from "react-icons/bs";
 
 const features = [
   {
