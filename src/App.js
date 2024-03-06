@@ -7,10 +7,13 @@ import Features from './components/Features';
 function App() {
   return (
     <>
-    <h1 className="text-3xl font-bold text-red-700 underline">
+    {/* <h1 className="text-3xl font-bold text-red-700 underline">
       Hello world!
-    </h1>
-    <Header /><Footer />
+    </h1> */}
+    <img src='../header.svg' alt='' className='' height={391} width={1440} />
+    <Header />
+    <Features />
+    <Footer />
     </>
   );
 }

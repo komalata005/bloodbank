@@ -10,31 +10,26 @@ import { Dialog } from '@headlessui/react'
 import { BsBug } from "react-icons/bs";
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
+  { name: 'Home', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Contact Us', href: '#' },
   { name: 'Company', href: '#' },
 ]
 
 function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-
  <>
- 
- 
- 
- <h1>Header</h1>
  <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
               <div className="flex lg:flex-1">
-                  {/* <a href="#" className="-m-1.5 p-1.5">
-                      <span className="sr-only">Your Company</span>
+                  <a href="#home" className="-m-1.5 p-1.5">
+                      <span className="sr-only">Life Save</span>
                       <img
                           className="w-auto h-8"
-                          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                          src="/logo512.png"
                           alt="" />
-                  </a> */}
+                  </a>
               </div>
               <div className="flex lg:hidden">
                   <button
