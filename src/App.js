@@ -1,15 +1,11 @@
 import React from 'react';
 import './styles/main.css';
-import Footer from './components/Footer';
-import Features from './components/Features';
-import Navigation from './components/Navigation';
+import Home from './pages/home';
 
 function App() {
   return (
     <>
-    <Navigation />
-    <Features />
-    <Footer />
+    <Home />
     </>
   );
 }

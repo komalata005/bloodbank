@@ -1,11 +1,15 @@
 import React from 'react';
+import Footer from '../components/Footer';
+import Features from '../components/Features';
+import Navigation from '../components/Navigation';
 
 const Home = () => {
   return (
-    <div className="p-4 bg-gray-200">
-      <h1 className="mb-4 text-2xl font-bold text-center">Welcome to My Website!</h1>
-      <p className="text-center">This is the home page of my website.</p>
-    </div>
+    <section id='#home'>
+      <Navigation />
+    <Features id="#about" />
+    <Footer />
+    </section>
   );
 };
 

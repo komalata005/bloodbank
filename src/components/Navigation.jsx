@@ -19,7 +19,7 @@ function Navigation() {
 
   return (
  <>
-  <img src='../header.svg' alt='' className='' height={391} width={1440} />
+  <img src='../../header.svg' alt='' className='' height={391} width={1440} />
 
  <div className='z-50 '>
  <div className='bg-[#982C29]'>
@@ -52,10 +52,15 @@ function Navigation() {
                   ))}
               </div>
               <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                  <a href="#login" className="text-sm font-semibold leading-6 text-white">
-                  Login/Register <span aria-hidden="true">&rarr;</span>
+                  <a href="./login/loginas" className="text-sm font-semibold leading-6 text-white">
+                  Login <span aria-hidden="true">&rarr;</span>
                   </a>
-              </div>
+                  </div>
+                  {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                  <a href="#register" className="text-sm font-semibold leading-6 text-white">
+                  Register <span aria-hidden="true">&rarr;</span>
+                  </a>
+              </div> */}
           </nav>
  </div>
 
