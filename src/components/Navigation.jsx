@@ -10,8 +10,8 @@ import { BsFileExcel,BsArrowLeftCircleFill  } from "react-icons/bs";
 
 const navigation = [
     { name: 'Home', href: '/home' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact Us', href: '#contact-us' },
+    // { name: 'About', href: '#about' },
+    // { name: 'Contact Us', href: '#contact-us' },
   ]
 
 function Navigation() {

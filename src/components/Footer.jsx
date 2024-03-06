@@ -16,8 +16,8 @@ const navigation = {
   ],
   Links: [
     { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact Us', href: '#contact-us' },
+    // { name: 'About', href: '#about' },
+    // { name: 'Contact Us', href: '#contact-us' },
 
   ],
   legal: [
