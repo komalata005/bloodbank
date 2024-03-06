@@ -18,20 +18,25 @@ function Loginas() {
             Login As
           </h2>
         </div>
+        <div className='w-max'>
         <Link to="/login/donar">
         <button
         type="button"
+        href="/login/donar"
         className="rounded-md bg-[#FFD1D1] px-3.5 py-2.5 text-sm font-semibold text-[#A30C11] shadow-sm hover:bg-[#A30C11] hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >
         DONOR
       </button>
         </Link>
+        </div>
+        <Link to="/login/patient">
       <button
         type="button"
         className="mt-6 rounded-md bg-[#BBC5E9] px-3.5 py-2.5 text-sm font-semibold text-[#0C2DA3] shadow-sm hover:bg-[#0C2DA3] hover:text-[#BBC5E9] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >
         Patients
       </button>
+      </Link>
               </div>
           </dl>
         </div>
