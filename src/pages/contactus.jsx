@@ -12,10 +12,14 @@
   }
   ```
 */
+import Footer from '../components/Footer';
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import Navigation from '../components/Navigation';
 
 export default function ContactUs() {
   return (
+    <>
+            <Navigation />
     <div className="relative bg-white isolate">
       <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
         <div className="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
@@ -56,7 +60,7 @@ export default function ContactUs() {
                   <BuildingOffice2Icon className="w-6 text-gray-400 h-7" aria-hidden="true" />
                 </dt>
                 <dd>
-                B-332 Malir Halt,
+                  B-332 Malir Halt,
                   <br />
                   Karachi, Pakistan
                 </dd>
@@ -68,7 +72,7 @@ export default function ContactUs() {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
-                  + 92 3345648299
+                    + 92 3345648299
                   </a>
                 </dd>
               </div>
@@ -79,7 +83,7 @@ export default function ContactUs() {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-900" href="mailto:hello@example.com">
-                  BloodBank@gmail.com
+                    BloodBank@gmail.com
                   </a>
                 </dd>
               </div>
@@ -99,8 +103,7 @@ export default function ContactUs() {
                     name="first-name"
                     id="first-name"
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                  />
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div>
               </div>
               <div>
@@ -113,8 +116,7 @@ export default function ContactUs() {
                     name="last-name"
                     id="last-name"
                     autoComplete="family-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                  />
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div>
               </div>
               <div className="sm:col-span-2">
@@ -127,8 +129,7 @@ export default function ContactUs() {
                     name="email"
                     id="email"
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                  />
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div>
               </div>
               <div className="sm:col-span-2">
@@ -141,8 +142,7 @@ export default function ContactUs() {
                     name="phone-number"
                     id="phone-number"
                     autoComplete="tel"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                  />
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                 </div>
               </div>
               <div className="sm:col-span-2">
@@ -155,8 +155,7 @@ export default function ContactUs() {
                     id="message"
                     rows={4}
                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    defaultValue={''}
-                  />
+                    defaultValue={''} />
                 </div>
               </div>
             </div>
@@ -171,6 +170,8 @@ export default function ContactUs() {
           </div>
         </form>
       </div>
-    </div>
+    </div><Footer />
+    </>
+
   )
 }

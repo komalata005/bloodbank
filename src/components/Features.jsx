@@ -28,15 +28,6 @@ export default function Features() {
   return (
     <div className="py-24 bg-[#0F2A47] sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
-        {/* <div className="max-w-2xl mx-auto lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Stay on top of customer support
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
-          </p>
-        </div> */}
         <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (

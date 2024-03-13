@@ -10,7 +10,7 @@ import { BsFileExcel,BsArrowLeftCircleFill  } from "react-icons/bs";
 
 const navigation = [
     { name: 'Home', href: '/home' },
-    { name: 'Welcome', href: '/welcome/donar' },
+    // { name: 'Welcome', href: '/welcome/donar' },
     // { name: 'Registration', href: 'pages/welcomepatient' },
     // { name: 'About', href: '#about' },
     { name: 'Contact Us', href: '/contact' },
@@ -70,13 +70,6 @@ function Navigation() {
               <div className="fixed inset-0 z-50" />
               <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                   <div className="flex items-center justify-between">
-                      {/* <a href="#" className="-m-1.5 p-1.5">
-                          <span className="sr-only">Your Company</span>
-                          <img
-                              className="w-auto h-8"
-                              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                              alt="" />
-                      </a> */}
                       <button
                           type="button"
                           className="-m-2.5 rounded-md p-2.5 text-gray-700"

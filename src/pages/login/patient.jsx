@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import Navigation from '../../components/Navigation';
+import { Link } from 'react-router-dom';
 
 function LoginDonar() {
   return (
@@ -57,6 +58,7 @@ function LoginDonar() {
 
 
     </form>
+    <Link to="/welcome/patient">
 
               <button
         type="button"
@@ -64,12 +66,17 @@ function LoginDonar() {
       >
         Login
       </button>
+      </Link>
+      <Link to="/registration/patient">
+
       <button
         type="button"
         className="mt-6 rounded-md bg-[#13764C] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0ca36c]] hover:text-[#BBC5E9] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >
         Register
       </button>
+      </Link>
+
               </div>
           </dl>
         </div>
