@@ -13,7 +13,7 @@ const navigation = [
     { name: 'Welcome', href: '/welcome/donar' },
     // { name: 'Registration', href: 'pages/welcomepatient' },
     { name: 'About', href: '#about' },
-    { name: 'Contact Us', href: '#contact-us' },
+    { name: 'Contact Us', href: '/contact' },
   ]
 
 function Navigation() {

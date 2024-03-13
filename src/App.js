@@ -9,6 +9,8 @@ import RegistrationDonar from './pages/registration/donar';
 import RegistrationPatient from './pages/registration/patient';
 import WelcomeDonar from './pages/welcome/donar';
 import WelcomePatient from './pages/welcome/patient';
+import ContactUs from './pages/contactus';
+
 // Import other components here
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Route path="/registration/patient" element={<RegistrationPatient />}></Route>
         <Route path="/welcome/donar" element={<WelcomeDonar />}></Route>
         <Route path="/welcome/patient" element={<WelcomePatient />}></Route>
+        <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>

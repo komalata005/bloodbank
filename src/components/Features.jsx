@@ -50,9 +50,9 @@ export default function Features() {
                 <dd className="flex flex-col flex-auto mt-1 text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                   <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
+                    {/* <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
                       Learn more <span aria-hidden="true">→</span>
-                    </a>
+                    </a> */}
                   </p>
                 </dd>
               </div>
