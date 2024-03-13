@@ -34,7 +34,7 @@ function Loginas() {
         type="button"
         className="w-72	 mt-6 rounded-md bg-[#BBC5E9] px-3.5 py-2.5 text-sm font-semibold text-[#0C2DA3] shadow-sm hover:bg-[#0C2DA3] hover:text-[#BBC5E9] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
       >
-        Patients
+        PATIENTS
       </button>
       </Link>
               </div>

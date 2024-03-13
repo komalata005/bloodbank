@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../../components/Footer';
-import Navigation from '../../components/Navigation';
+import Navigation from '../../components/PatientNavigation';
 
 function WelcomePatient() {
   return (
