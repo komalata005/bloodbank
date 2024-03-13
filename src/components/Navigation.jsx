@@ -12,7 +12,7 @@ const navigation = [
     { name: 'Home', href: '/home' },
     { name: 'Welcome', href: '/welcome/donar' },
     // { name: 'Registration', href: 'pages/welcomepatient' },
-    { name: 'About', href: '#about' },
+    // { name: 'About', href: '#about' },
     { name: 'Contact Us', href: '/contact' },
   ]
 
