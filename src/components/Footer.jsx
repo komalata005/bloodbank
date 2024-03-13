@@ -3,22 +3,14 @@ import React from 'react';
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 const navigation = {
-  solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
-  ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
-  ],
+
   Links: [
-    { name: 'Home', href: '#home' },
-    // { name: 'About', href: '#about' },
-    // { name: 'Contact Us', href: '#contact-us' },
+    { name: 'Home', href: '/home' },
+    { name: 'Contact Us', href: '/contact' },
+    { name: 'Donar Registration', href: '/registration/donar' },
+    { name: 'Patient Registration', href: '/registration/patient' },
+
+
 
   ],
   legal: [
