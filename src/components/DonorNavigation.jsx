@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { IoMenu } from "react-icons/io5";
 import { GiCancel } from "react-icons/gi";
+import Header from './Header';
 
 const navigation = [
     { name: 'Home', href: '/home' },
@@ -16,8 +17,7 @@ function Navigation() {
 
   return (
  <>
-  <img src='../../header.svg' alt='' className='' height={391} width={1440} />
-
+ <Header />
  <div className='z-50 '>
  <div className='bg-[#982C29]'>
  <nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">

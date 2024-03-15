@@ -3,28 +3,21 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { IoMenu } from "react-icons/io5";
 import { GiCancel } from "react-icons/gi";
-// import {
-//   Bars3Icon,
-//   // eslint-disable-next-line no-unused-vars
-//   XMarkIcon,
-// } from '@heroicons/react/24/outline'
+import Header from './Header';
 
 const navigation = [
     { name: 'Home', href: '/home' },
-    // { name: 'Welcome', href: '/welcome/donar' },
-    // { name: 'Registration', href: 'pages/welcomepatient' },
-    // { name: 'About', href: '#about' },
+    { name: 'About', href: '/about' },
     { name: 'Contact Us', href: '/contact' },
   ]
 
-function Navigation() {
+ function Navigation() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
  <>
-  <img src='../../header.svg' alt='' className='' height={391} width={1440} />
-
- <div className='z-50 '>
+ <Header />
+ <div className='z-50'>
  <div className='bg-[#982C29]'>
  <nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
               <div className="flex lg:flex-1">
@@ -43,7 +36,6 @@ function Navigation() {
                       onClick={() => setMobileMenuOpen(true)}
                   >
                       <span className="sr-only">Open main menu</span>
-                      {/* <Bars3Icon className="w-6 h-6" aria-hidden="true" /> */}
                        <IoMenu className="w-6 h-6" aria-hidden="true" />
                   </button>
               </div>
@@ -59,11 +51,6 @@ function Navigation() {
                   Login <span aria-hidden="true">&rarr;</span>
                   </a>
                   </div>
-                  {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                  <a href="#register" className="text-sm font-semibold leading-6 text-white">
-                  Register <span aria-hidden="true">&rarr;</span>
-                  </a>
-              </div> */}
           </nav>
  </div>
 
