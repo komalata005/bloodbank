@@ -1,4 +1,6 @@
-import { BsEye, BsEmojiSmile } from "react-icons/bs";
+import { BsEye} from "react-icons/bs";
+import { GoGoal } from "react-icons/go";
+import { BiDonateBlood } from "react-icons/bi";
 
 const features = [
   {
@@ -6,7 +8,7 @@ const features = [
     description:
       'Our mission is to create a streamlined and accessible platform that connects individuals in need of blood with timely and accurate information about blood availability. We aim to facilitate a quick and efficient process through which users can find the required blood types, quantities, and locations with just a few clicks.',
     href: '#',
-    icon: BsEmojiSmile,
+    icon: BiDonateBlood,
   },
   {
     name: 'Vision',
@@ -20,7 +22,7 @@ const features = [
     description:
       'Our goal is to eliminate the challenges and uncertainties faced by individuals seeking blood in emergency situations. We aspire to provide a comprehensive and user-friendly solution that ensures people in urgent need can easily access vital information about available blood resources. By doing so, we aim to contribute to saving lives and reducing the burden of searching across various social media platforms.',
     href: '#',
-    icon: BsEmojiSmile,
+    icon: GoGoal,
   },
 ]
 
