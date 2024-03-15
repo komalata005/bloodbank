@@ -28,6 +28,11 @@ export default function Features() {
   return (
     <div className="py-24 bg-[#0F2A47] sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
+      <div className="flex-1 min-w-0">
+        <h2 className="text-2xl font-bold leading-7 text-white sm:truncate sm:text-3xl sm:tracking-tight">
+          Saves Lifes with Us -Donates Blood
+        </h2>
+      </div>
         <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (

@@ -1,12 +1,8 @@
 import React from 'react';
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
-// import {
-//   Bars3Icon,
-//   // eslint-disable-next-line no-unused-vars
-//   XMarkIcon,
-// } from '@heroicons/react/24/outline'
-import { BsFileExcel,BsArrowLeftCircleFill  } from "react-icons/bs";
+import { IoMenu } from "react-icons/io5";
+import { GiCancel } from "react-icons/gi";
 
 const navigation = [
     { name: 'Home', href: '/home' },
@@ -42,7 +38,7 @@ function Navigation() {
                   >
                       <span className="sr-only">Open main menu</span>
                       {/* <Bars3Icon className="w-6 h-6" aria-hidden="true" /> */}
-                      < BsArrowLeftCircleFill className="w-6 h-6" aria-hidden="true" />
+                      < IoMenu className="w-6 h-6" aria-hidden="true" />
                   </button>
               </div>
               <div className="hidden lg:flex lg:gap-x-12">
@@ -71,8 +67,7 @@ function Navigation() {
                           onClick={() => setMobileMenuOpen(false)}
                       >
                           <span className="sr-only">Close menu</span>
-                          {/* <XMarkIcon className="w-6 h-6" aria-hidden="true" /> */}
-                         < BsFileExcel className="w-6 h-6" aria-hidden="true"  />
+                         < GiCancel className="w-6 h-6" aria-hidden="true"  />
                       </button>
                   </div>
                   <div className="flow-root mt-6">
