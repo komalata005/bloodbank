@@ -10,12 +10,17 @@ import RegistrationPatient from './pages/registration/patient';
 import WelcomeDonar from './pages/welcome/donar';
 import WelcomePatient from './pages/welcome/patient';
 import ContactUs from './pages/contactus';
-
+import About from './pages/about';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 // Import other components here
 
 function App() {
   return (
-    <><BrowserRouter>
+    <>
+
+    <BrowserRouter>
       <Routes>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/login-as" element={<Loginas />}></Route>
@@ -26,9 +31,12 @@ function App() {
         <Route path="/welcome/donar" element={<WelcomeDonar />}></Route>
         <Route path="/welcome/patient" element={<WelcomePatient />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
+        <Route path="/about" element={<About />}></Route>
+
         <Route path="/" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
+
     </>
   );
 }

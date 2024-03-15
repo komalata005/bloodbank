@@ -19,7 +19,7 @@ function Navigation() {
 
   return (
  <>
- <Header />
+ < Header />
 
  <div className='z-50 '>
  <div className='bg-[#982C29]'>

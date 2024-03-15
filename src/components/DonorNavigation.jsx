@@ -17,7 +17,8 @@ function Navigation() {
 
   return (
  <>
- <Header />
+  < Header />
+
  <div className='z-50 '>
  <div className='bg-[#982C29]'>
  <nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">

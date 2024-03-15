@@ -37,10 +37,16 @@ const values = [
 ]
 const team = [
   {
-    name: 'Michael Foster',
+    name: 'Fabiya',
+    role: 'Founder',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+  },
+  {
+    name: 'Anum Nawaz',
     role: 'Co-Founder / CTO',
     imageUrl:
-      'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
   },
   // More people...
 ]
@@ -48,7 +54,6 @@ const team = [
 export default function About() {
   return (
     <>
-    <Header />
             <Navigation />
                    {/* Values section */}
         <div className="px-6 mx-auto mt-32 max-w-7xl sm:mt-40 lg:px-8">
@@ -79,7 +84,6 @@ export default function About() {
             </p>
           </div>
           <ul
-            role="list"
             className="grid max-w-2xl grid-cols-2 mx-auto mt-20 text-center gap-x-8 gap-y-16 sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
           >
             {team.map((person) => (
