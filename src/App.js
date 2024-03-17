@@ -11,9 +11,6 @@ import WelcomeDonar from './pages/welcome/donar';
 import WelcomePatient from './pages/welcome/patient';
 import ContactUs from './pages/contactus';
 import About from './pages/about';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
 // Import other components here
 
 function App() {
